@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.flex-container {
+	flex-wrap: nowrap;
+	height: auto;
+}
+.flex-container > * > * > * {
+	width: 100%;
+	border-right-style: hidden;
+}

@@ -1,0 +1,46 @@
+﻿@charset "utf-8";
+html {
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+body {
+	margin: 0;
+}
+.flex-container {
+	display: flex;
+	flex-flow: column wrap;
+	align-content: flex-start;
+	height: calc(100vh - 15px);
+}
+.flex-container > * {
+	flex-basis: auto;
+}
+.flex-container > *:nth-child(even) {
+	background-color: #f3f3f3;
+}
+.flex-container > * > * {
+	text-decoration: none;
+	color: inherit;
+}
+.flex-container > * > * > * {
+	margin: 0;
+	width: 483px;
+	border-right: 1px solid lightgray;
+	tab-size: 5;
+	-moz-tab-size: 5;
+	white-space: pre-wrap;
+	text-align: center;
+	text-decoration: none;
+	font-family:
+    Consolas, "Courier New", Courier, Monaco,
+    monospace, "ＭＳ ゴシック", "MS Gothic", Osaka−等幅;
+}
+.now {
+	font-weight: bold;
+}
+.future {
+	color: gray;
+}
+.flex-container > * > *:hover {
+	color: #C22047;
+}
