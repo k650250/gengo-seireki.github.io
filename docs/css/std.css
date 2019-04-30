@@ -32,8 +32,10 @@ body {
 	text-align: center;
 	text-decoration: none;
 	font-family:
-    Consolas, "Courier New", Courier, Monaco,
-    monospace, "ＭＳ ゴシック", "MS Gothic", Osaka−等幅;
+		Consolas, "Courier New", Courier, "Droid Sans Mono",
+		Monaco, Avenir, Lato, -apple-system, BlinkMacSystemFont,
+		Helvetica Neue, Hiragino Kaku Gothic ProN,
+		Meiryo, メイリオ, sans-serif;
 }
 .now {
 	font-weight: bold;
