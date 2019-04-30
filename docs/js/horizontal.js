@@ -4,7 +4,7 @@
 	// 表示領域
 	const clientArea = $(window);
 	// 表示領域の横幅が閾値を上回る場合、横長表示形式へ
-	clientArea.on('load resize', function() {
+	clientArea.on('load resize orientationchange', function() {
 		if (clientArea.width() > THRESHOLD) {
 			$('.flex-container').css('height', clientArea.height());
 		} else {
