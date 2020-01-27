@@ -1,1 +1,1 @@
-# gengo-seireki.github.io
+- [元号・西暦対照表](https://k650250.github.io/gengo-seireki.github.io/)
